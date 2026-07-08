@@ -14,7 +14,7 @@ from telegram.ext import Application, CommandHandler, MessageHandler, filters, C
 # =====================================================================
 
 BOT_TOKEN = "8859538798:AAHmJ0NM0-M9MZSfHLvZx27zzbjukQTF1dc"  # تم إضافة التوكن الخاص بك هنا بنجاح
-ADMIN_ID = 8859538798
+ADMIN_ID = 892901952
 
 SECRET_KEY = "V40_ENGLISH_SECURE_2026"
 USERS_FILE = "english_users_database.json"
