@@ -12,8 +12,9 @@ from telegram.ext import Application, CommandHandler, MessageHandler, filters, C
 # =====================================================================
 # 👑 الإعدادات السيادية (بوت اللغة الإنجليزية فقط)
 # =====================================================================
-ADMIN_ID = 8859538798  # معرف المسؤول الخاص بك
+
 BOT_TOKEN = "8859538798:AAHmJ0NM0-M9MZSfHLvZx27zzbjukQTF1dc"  # تم إضافة التوكن الخاص بك هنا بنجاح
+ADMIN_ID = 8859538798
 
 SECRET_KEY = "V40_ENGLISH_SECURE_2026"
 USERS_FILE = "english_users_database.json"
