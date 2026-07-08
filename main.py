@@ -115,12 +115,12 @@ def generate_code(days):
 # =====================================================================
 async def fast_broadcaster(application: Application):
     """نظام بث فائق السرعة يرسل المحتوى المخصص للمشتركين كل 30 ثانية"""
-    print("🔄 تم تشغيل نظام البث التلقائي السريع (كل 30 ثانية)...")
+    print("🔄 تم تشغيل نظام البث التلقائي السريع (كل ساعه)...")
     
     while True:
         try:
             # الانتظار لمدة 30 ثانية
-            await asyncio.sleep(30)
+            await asyncio.sleep(3600)
             
             db = load_db()
             now_ts = time.time()
