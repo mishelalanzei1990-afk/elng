@@ -100,7 +100,7 @@ async def hourly_broadcaster(application: Application):
     while True:
         try:
             # انتظر ساعة كاملة (3600 ثانية) قبل البث التالي
-            await asyncio.sleep(3600)
+            await asyncio.sleep(10)
             
             db = load_db()
             active_users = [uid for uid, exp in db.items() if time.time() < float(exp)]
